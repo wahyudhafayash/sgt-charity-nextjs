@@ -32,13 +32,14 @@ cd sgt-charity-nextjs
 Jika menggunakan npm
 
 ```bash
-npm install
+npm install --legacy-peer-deps
+
 ```
 
 Jika menggunakan yarn
 
 ```bash
-yarn install
+yarn install --ignore-engines
 ```
 
 4. Setelah semua dependensi terinstal, Anda dapat menjalankan proyek dengan perintah berikut:
